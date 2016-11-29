@@ -2,7 +2,7 @@
 
 Artist Match Memory Game
 Inspired by my time spend earning a BFA and “learning slides.” I originally envisioned it being less visual and more of a learning tool. 
-Play It here: https://github.com/GisellaBella/gisellabella/
+Play It here: https://gisellabella.github.io/gisellabella/
 
 
 A simple memory game developed in vanilla javascript with the subtle minty hint of jQuery.
