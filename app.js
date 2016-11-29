@@ -17,8 +17,10 @@ console.log("Javascript seems to be working.");
   var counter = 0;//Keeping track of how many cardsInPlay have been clicked in a turn
 
   var cardsInPlay = document.getElementsByTagName("li");
+  console.log(cardsInPlay);
   var shuffledArray = shuffle(paintingsArray); //need to add some sort of shuffling method here
-  for (var i = 0; i<paintingsArray.length; i++) {
+  for (var i = 0; i<cardsInPlay.length; i++) {
+    console.log(cardsInPlay[i]);
     cardsInPlay[i].setAttribute("artistValue", paintingsArray[i]);
     cardsInPlay[i].addEventListener("click", flip);
   }
