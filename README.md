@@ -8,10 +8,10 @@ Play It here: https://gisellabella.github.io/gisellabella/
 
 A simple memory game developed in vanilla javascript with the subtle minty hint of jQuery.
 
-I use dom manipulation to dynamically generate the game.
+I use dom manipulation to dynamically generate the game, track the activity, and determine matches.
 
-One of the biggest challenges in creating this was workign with the images, and arrays. I couldnt get the image values to pass and the image to actually show. I tried creating the img src property in the array but it woudl just create an object[object] error (as the "internets" recommended.) I struggled mightily figuring out the best way to not only show images, but also pass the attribute back to the app to write the logic, finally settling on a hack with "strings". Works beautifully now.
+One of the biggest challenges in creating this was working with the images, and arrays. I couldn't get the image values to pass and the image to show. I tried creating the img src property in the array but it would just create an object[object] error (as the "internets" recommended.) I struggled mightily figuring out the best way to not only show images but also pass the attribute back to the app for the logic, finally settling on a "hack" with string values. Works beautifully now.
 
-Unsolved problems first click gives me the not a match error, will try to resolve.
-Would love to have a more dynamic database of images. Currently it is hard coded to only show the same 8 images over and over.
+Unsolved problems include first-click gives a "not a match error", will try to resolve.
+Would love to include a dynamic database of images. Currently, it is hard coded  to show eight images.
 
