@@ -9,10 +9,10 @@ body {
   background-color: #BEBEBE;
 }
 
-.alertMessageBox {
-  height:150px;
+#alertMessageBox {
+  height:70px;
   margin-top: 0px;
-  margin-bottom: 25px;
+  margin-bottom: 0px;
 }
 
 h1 {
@@ -33,13 +33,13 @@ ul {
   text-align: center;
 }
 
-li {
-  display: inline-block;
+li { /*default background for card before it is flippped.*/
+  display: inline-block; /* Styling that allow cards to "fill" up the rows nice and neat. */
   width: 100px;
   height: 150px;
   margin: 5px;
   border: 5px solid #FEFFFF;
-  background: url("imgs/cardback.png");
+  background: url("imgs/cardback.png"); /*unflipped cards, background image*/
   background-position: center;
   vertical-align: top;
 }
@@ -50,6 +50,3 @@ img {
   
 }
 
-.matched {
-  background-color: white;
-}
