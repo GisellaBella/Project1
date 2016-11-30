@@ -13,5 +13,5 @@ I use dom manipulation to dynamically generate the game.
 One of the biggest challenges in creating this was workign with the images, and arrays. I couldnt get the image values to pass and the image to actually show. I tried creating the img src property in the array but it woudl just create an object[object] error (as the "internets" recommended.) I struggled mightily figuring out the best way to not only show images, but also pass the attribute back to the app to write the logic, finally settling on a hack with "strings". Works beautifully now.
 
 Unsolved problems first click gives me the not a match error, will try to resolve.
-Would love to have a more dynamic database of images. Currently it is hard coded to only show the same 8 image over and over.
+Would love to have a more dynamic database of images. Currently it is hard coded to only show the same 8 images over and over.
 
