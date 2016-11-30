@@ -1,6 +1,7 @@
 # Project1
 
-Artist Match Memory Game
+<h1>Artist Match Memory Game</h1>
+
 Inspired by my time spent earning a BFA and “learning slides.” I originally envisioned it being less visual and more of a learning tool. 
 Play It here: https://gisellabella.github.io/gisellabella/
 
