@@ -26,7 +26,7 @@ console.log("Javascript seems to be working.");
   }
 
   function shuffle (cardsInPlay) { //array shuffler
-    var cardsInPlayLength = cardsInPlay.length;
+    var cardsInPlayLength = paintingsArray.length;
     var index;
     var temp;
     while (cardsInPlayLength > 0) {
@@ -72,6 +72,7 @@ console.log("Javascript seems to be working.");
       but i couldnt figure out a way to do that. Also the message box's 
       jumpiness i intend to fix, as soon as i ask Nick how to do that. No luck on the interwebs. */
       }, 800);
+
       
     } else {
       document.getElementById('alertMessageBox').innerHTML = '<h3>Not a Match.</h3>'; 
