@@ -3,7 +3,7 @@
 <h1>Artist Match Memory Game</h1>
 
 Inspired by my time spent earning a BFA and “learning slides.” I originally envisioned it being less visual and more of a learning tool. 
-Play It here: https://gisellabella.github.io/gisellabella/
+Play It here: https://gisellabella.com/project1/
 
 
 A simple memory game developed in vanilla javascript with the subtle minty hint of jQuery.
